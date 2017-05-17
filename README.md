@@ -1,2 +1,3 @@
 # golden-scripts
-Database queries, procedures and OS stuff for Oracle, MySQL, SQL Server, PostgreSQL, Cassandra
+Database queries, procedures and OS stuff for Oracle, MySQL, SQL Server, PostgreSQL, Cassandra.
+http://loredata.com.br
