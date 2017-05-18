@@ -16,7 +16,8 @@ COL inst_id FORMAT 99
 
   SELECT s.sid,
          s.serial#,
-         p.spid,                                                /*s.inst_id,*/
+         p.spid,                                                
+         /*s.inst_id,*/
          s.machine,
          s.osuser,
          s.username,
@@ -25,7 +26,8 @@ COL inst_id FORMAT 99
          s.SERVICE_NAME,
          w.event,
          s.SECONDS_IN_WAIT,
-         TO_CHAR (s.logon_time, 'YYYY-MM-DD HH24:MI:SS'), /*s.sql_hash_value,*/
+         TO_CHAR (s.logon_time, 'YYYY-MM-DD HH24:MI:SS'), 
+         /*s.sql_hash_value,*/
          s.sql_id,
          s.status
     FROM v$session s, v$session_wait w, v$process p
