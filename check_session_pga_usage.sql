@@ -1,4 +1,4 @@
--- Criado por Franky Weber Faust 19/04/2011
+-- Adaptado por Franky Weber Faust 19/04/2011
 -- http://loredata.com.br
 -- Apresenta o uso de PGA por sessao no Oracle
 SET LINESIZE 300;
