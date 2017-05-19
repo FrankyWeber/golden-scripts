@@ -1,6 +1,6 @@
 -- Criado por Franky Weber Faust 25/09/2010
 -- http://loredata.com.br
--- Filtra as sessões no Oracle
+-- Verifica a cota dos usuários nas tablespaces
 SELECT TABLESPACE_NAME,
        USERNAME,
        BYTES / 1024 / 1024 MB,
