@@ -1,3 +1,6 @@
+-- Criado por Franky Weber Faust 15/03/2011
+-- http://loredata.com.br
+-- Lista o espaço utilizado pela FRA.
 set pages 200 lin 200
 SELECT FILE_TYPE,
        PERCENT_SPACE_USED,
