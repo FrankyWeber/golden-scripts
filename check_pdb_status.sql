@@ -1,3 +1,6 @@
+-- Criado por Franky Weber Faust 13/08/2015
+-- http://loredata.com.br
+-- Verifica nome, status e tamanho dos PDBs.
 SELECT
     p.name,
     p.open_mode,
