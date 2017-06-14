@@ -1,4 +1,6 @@
-
+-- Criado por Franky Weber Faust 15/02/2010
+-- http://loredata.com.br
+-- Mostra o tamanho do banco de dados somando seus arquivos.
 SELECT D.INSTANCE_NAME,
        F.NAME DBNAME,
        E.HOST_NAME,
