@@ -2,7 +2,7 @@
 
 #set -x
 
-#Replace the list of instances below.
+#Replace the list of DB instances below.
 inst="prodcdb1 prod2cdb1 prod3cdb1"
 
 for i in $inst
