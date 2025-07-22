@@ -103,6 +103,8 @@ VM_COUNT=0
 FOOTER_NOTE_NEEDED=false
 
 # --- Find and Loop Through Config Files ---
+# This still needs improvement since it's relying only on config files instead of running VMs.
+# For future releases I have to parse the running VMs and try to extract the details from vm_maker, virsh, or some other tool.
 while read -r config_file; do
     if ! grep -q '<virtualMachine' "$config_file"; then continue; fi
     VM_COUNT=$((VM_COUNT + 1))
