@@ -49,7 +49,7 @@ TARGET_DIRECTORIES=("/zfs/backup1" "/zfs/backup2")
 # Example: FILE_EXTENSIONS=("*.bak" "*.zip" "*.tar.gz" "*.bkup" "*.bkp")
 FILE_EXTENSIONS=("*.bkup")
 
-# --- Log Configuration ---
+# --- Log Configs ---
 
 # Directory to store log files.
 LOG_DIR="/var/log/backup_cleanup"
@@ -57,7 +57,7 @@ LOG_DIR="/var/log/backup_cleanup"
 # Log file retention in days.
 LOG_RETENTION_DAYS=7
 
-# --- Log Management Function ---
+# --- Log Mgmt Function ---
 
 manage_log_rotation() {
     # Exit if the log directory doesn't exist.
@@ -88,7 +88,7 @@ manage_log_rotation | tee -a "$LOG_FILE"
 # while also displaying it on the console using 'tee'.
 exec > >(tee -a "${LOG_FILE}") 2>&1
 
-# --- Main Cleanup Logic ---
+# --- Main cleanup Logic ---
 
 CURRENT_DATE=$(date +"%Y-%m-%d %H:%M:%S")
 
